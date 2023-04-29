@@ -50,7 +50,7 @@ const profile = document.getElementById("profile");
 profile.addEventListener("click", () => {
   const user = JSON.parse(localStorage.getItem("user")) || false;
   if (user) {
-    window.location.href = "../profile/index.html";
+    window.location.href = "profile/index.html";
   } else {
     window.location.href = "/index.html";
   }
